@@ -1,0 +1,25 @@
+#list-example {
+    width: 3%;
+    height: 100%;
+    position: fixed;
+}
+#sidenav{
+    position: fixed;
+    display: block;
+    flex-wrap: wrap;
+    align-items: self-start;
+    padding: -0.5rem 1rem !important;
+    height: 100%;
+    background: #EEEEEE !important;
+    width: 41px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 15px;
+    border: none;
+    background-color: #EEEEEE;
+}
+.fa-handshake-o {
+    color: #41a85f;
+}

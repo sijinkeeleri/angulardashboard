@@ -1,1 +1,121 @@
-<p>timeline works!</p>
+
+<section class="timeline-bar container">
+  <h3 class="pt-5">Timeline</h3>
+<div>
+  <p class="test-blur">Section focus year</p>
+  <mat-slider
+  class="slidermargin"
+  [color]="slidcolor"
+  [disabled]="disabled"
+  [invert]="invert"
+  [max]="max"
+  [min]="min"
+  [step]="step"
+  [thumbLabel]="thumbLabel"
+  [tickInterval]="getSliderTickInterval()"
+  [(ngModel)]="value"
+  [vertical]="vertical">
+</mat-slider>
+<ul class="intervellist">
+  <li>
+    <h5>2003</h5>
+    <p>Start</p> 
+  </li>
+  <li>
+    <h5>2005</h5>
+    <p>+1</p> 
+  </li>
+  <li>
+    <h5>2006</h5>
+    <p>+2</p> 
+  </li>
+  <li>
+    <h5>2007</h5>
+    <p>Start</p> 
+  </li>
+  <li>
+    <h5>2010</h5>
+    <p>Renuval</p> 
+  </li>
+  <li>
+    <h5>2012</h5>
+    <p>Renuval</p> 
+  </li>
+  <li>
+    <h5>2014</h5>
+    <p>Renuval</p> 
+  </li>
+  <li>
+    <h5>2016</h5>
+    <p>Last Renuval</p> 
+  </li>
+</ul>
+</div>
+
+
+    <div class="datecontainer">
+        <div class="dot"></div>
+        <div class="mat">
+          <p>2018</p>
+        <h2>July 30</h2>
+        </div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+
+        <div class="mat">
+          <p>2010</p>
+        <h2>March 03</h2>
+              <div class='quote'>
+                <h6>Quote # 33 colocation</h6>
+                <p>+30 product service sold</p>
+                <p>+1 price increases</p>
+                <p>- Agreement term</p>
+              </div>
+        </div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+
+        <div class="mat">
+          <p>2008</p>
+        <h2>Dec 01</h2>
+        </div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+
+        <div class="mat">
+          <p>2007</p>
+        <h2>Nov 15</h2>
+        <div class='quote'>
+          <h6>Quote # 33 colocation</h6>
+          <p>+30 product service sold</p>
+          <p>+1 price increases</p>
+          <p>- Agreement term</p>
+        </div>
+        </div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+
+        <div class="mat">
+          <p>2005</p>
+        <h2>Aug 05</h2>
+        <div class='quote'>
+          <h6>Quote # 33 colocation</h6>
+          <p>+30 product service sold</p>
+          <p>+1 price increases</p>
+          <p>- Agreement term</p>
+        </div>
+        </div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+
+        <div class="mat">
+          <p>2003</p>
+        <h2>May 04</h2>
+        </div>
+        <div class="dot"></div>
+      </div>
+</section>

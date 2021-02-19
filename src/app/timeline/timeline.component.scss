@@ -1,0 +1,90 @@
+.timeline-bar {
+    position: relative;
+    height: auto;
+    left: 220px;
+}
+.slidermargin {
+    color: #1799cb;
+    height: 10px;
+    width: 85%;
+    padding: 20px;
+    display: block;
+}
+.test-blur {
+    margin-bottom: 0px;
+    color: rgb(99, 97, 97);
+}
+.intervellist {
+    display: -webkit-inline-box;
+    list-style-type: none;
+}
+.intervellist h5{
+    font-size: 14px;
+}
+.intervellist p{
+    font-size: 12px;    
+}
+.intervellist li {
+    padding: 0px 21px 0px 13px;
+}
+.dot {
+    position: relative;
+    width: 8px;
+    display: block;
+    height: 8px;
+    background-color: #B9B9B9B9;
+    border-radius: 50%;
+    margin-top: 60px;
+  }
+  
+  .dot:before, .dot:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    background-color: inherit;
+    border-radius: inherit;
+    }
+  
+  .dot:before {
+    top: 30px;
+    }
+    .mat {
+        display: block;
+        height: 120px;
+        padding-top: 40px;
+        position: relative;
+    }
+    .mat h2, .mat p {
+        margin: 0px;
+        padding: 0px;
+    }
+  
+    .datecontainer {
+        height: 600px;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        overflow-y: scroll; /* Add the ability to scroll */
+    }
+    .datecontainer::-webkit-scrollbar {
+        display: none;
+    }
+    .quote {
+        position: absolute;
+        top: 29px;
+        left: 300px;
+        background: #EEEEEE;
+        border: 0.5px solid #9999;
+        padding: 20px;
+    }
+    .quote h6{
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.582);
+    }
+    .quote p{
+        font-size: 14px;
+        margin: 0px;
+        padding: 0px;
+        color: gray;
+    }
